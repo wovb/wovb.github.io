@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+:root{
+	color-scheme: dark;
+}
+
+body{
+	text-align: center;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+textarea, input, button{
+	padding: 8px;
+	font-size: 18px;
+	font-family: inherit;
+	border: none;
+	border-radius: 8px;
+}
+
+button{
+	width: 200px;
+	margin-top: 1rem;
+	background-color: #7091F5;
+	cursor: pointer;
+}
+
+button:active{
+	scale: 0.97;
+}
+
+textarea{
+	width: 340px;
+	height: 120px;
+	resize: none;
+	font-size: 14px;
+	font-family: monospace;
+}
+
+textarea::placeholder, input::placeholder{
+	color: #bbb;
+}
+
+input[type="number"]{
+	width: 100px;
+}

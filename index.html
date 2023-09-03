@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wov Oda botu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<textarea placeholder="Bot JWT'si" id="botjwt"></textarea>
+	</div>
+	<div>
+		<input type="number" placeholder="Bot sayi" id="botsay">
+		<input type="text" placeholder="Oda ismi" id="odaisim">
+	</div>
+	<div>
+		<button onclick="wsekle()">Ws ekle</button>
+		<button onclick="baslat()">Baslat</button>
+	</div>
+	<div>
+		<button onclick="lstemizle()" style="display: none" id="hesapcikis">Hesaptan cikis</button>
+	</div>
+	<div style="margin-top: 2rem;">
+		<p id="status" style="font-size: 18px;"></p>
+	</div>
+<script src="main.js"></script>
+</body>
+</html>
